@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies</title>
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="header">
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-12">
+                        <img  src="img/logo.png" alt="Логотип">
+                    </div>
+                    <div class="col-lg-5 offset-lg-5 ">
+                        <ul class="menu d-flex justify-content-between ">
+                            <li class="align-self-center"><a href="#">Browse</a></li>
+                            <li><a href="#Movies">Movies</a></li>
+                            <li><a href="#TV_Shows">TV Shows</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-7 col-md-8 offset-md-2">
+                    <div class="cover">
+                        <img class="title" src="img/title.png" alt="Названия">
+                        <h4 class="about">Matt Murdock, with his other senses superhumanly 
+                            enhanced, fights crime as a blind Lawyer 
+                            by day, and vigilante by night.</h4>
+                        <p class="description">54min  |  Action, Crime, Drama  |   TV Series (2015– )</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 offset-lg-7">
+                    <div class="choose-episode">
+                        <div class="choose-box">
+                            <p>Watch episode</p>
+                        </div>
+                        <div class="counter">
+                            <div class="arrow-top"></div>
+                            <p id = 'count'>1</p>
+                            <div class="arrow-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a id="Movies"></a>
+                    <h3>Popular Movies</h3>
+                    <div class="slider-of-movies" >
+                        <div><img src="img/Popular_Movies/Calque_1.jpg" alt="Фильм"></div>
+                        <div><img src="img/Popular_Movies/Calque_2.jpg" alt="Фильм"></div>
+                        <div><img src="img/Popular_Movies/Calque_3.jpg" alt="Фильм"></div>
+                        <div><img src="img/Popular_Movies/Calque_4.jpg" alt="Фильм"></div>
+                        <div><img src="img/Popular_Movies/Calque_5.jpg" alt="Фильм"></div>
+                        <div><img src="img/Popular_Movies/Calque_6.jpg" alt="Фильм"></div>  
+                    </div>
+                    <a id="TV_Shows"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Popular TV Shows</h3>
+                    <div class="slider-of-movies">
+                        <div><img src="img/Popular_TV_Shows/Calque_1.jpg" alt="Сериал"></div>
+                        <div><img src="img/Popular_TV_Shows/Calque_2.jpg" alt="Сериал"></div>
+                        <div><img src="img/Popular_TV_Shows/Calque_3.jpg" alt="Сериал"></div>
+                        <div><img src="img/Popular_TV_Shows/Calque_4.jpg" alt="Сериал"></div>
+                        <div><img src="img/Popular_TV_Shows/Calque_5.jpg" alt="Сериал"></div>
+                        <div><img src="img/Popular_TV_Shows/Calque_6.jpg" alt="Сериал"></div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subcscribe_form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3" >
+                    <div class="form">
+                        <h3>Get the movie & TV Shows 
+                            straight <br> in your inbox each week</h3>
+                        <form  action="#">
+                            <input  type="text" placeholder="First Name" required>
+                            <input class="fix" type="text" placeholder="Email" required>
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="copyrights">
+            <img src="img/logo.png" alt="Логотип">
+            <h3>2016 Movies   All Rights Reserved</h3>
+            <p>Terms of service       Privasy Policy</p>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="vendor/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/counter.js"></script>
+</body>
+</html>
