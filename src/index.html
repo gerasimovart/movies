@@ -26,16 +26,16 @@
                     </div>
                     <div class="col-lg-5 offset-lg-5 ">
                         <ul class="menu d-flex justify-content-between wow flipInX">
-                            <li><a href="#">Browse</a></li>
+                            <li><a href="#browse">Browse</a></li>
                             <li><a href="#Movies">Movies</a></li>
                             <li><a href="#TV_Shows">TV Shows</a></li>
-                            <li><a href="#">News</a></li>
+                            <li><a href="#subscribe">Subscribe</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="browse">
             <div class="row">
                 <div class="col-lg-5 offset-lg-7 col-md-8 offset-md-2">
                     <div class="cover  wow flipInX">
@@ -119,7 +119,7 @@
             </div>
         </div>
     </section>
-    <section class="subcscribe_form">
+    <section class="subcscribe_form" id="subscribe">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3" >
@@ -129,9 +129,9 @@
                             straight <br> in your inbox each week
                         </h3>
                         <form  action="#">
-                            <input class="wow fadeInLeft" data-wow-offset="150" type="text" placeholder="First Name" required>
-                            <input class="fix wow fadeInRight" data-wow-offset="150" type="text" placeholder="Email" required>
-                            <button class="wow fadeInUp" data-wow-offset="100">Subscribe</button>
+                            <input class="wow fadeInLeft" type="text" name="name" placeholder="First Name" required data-wow-offset="150">
+                            <input class="fix wow fadeInRight" type="text" name="email" placeholder="Email" required data-wow-offset="150">
+                            <button class="wow fadeInUp" type="submit" data-wow-offset="100">Subscribe</button>
                         </form>
                     </div>
                 </div>
